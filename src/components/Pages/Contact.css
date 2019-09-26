@@ -1,0 +1,31 @@
+.header-contact {
+    margin:200px 0 0 100px;
+}
+
+
+.container-contact {
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    padding-left: 30px;
+    box-shadow: 0 0 5px 3px rgba(231, 220, 220, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+  }
+h2{
+    padding-bottom: 5px;
+    margin-left: 39px;
+}
+
+ul{
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+   }
+.foto-section img{
+    box-shadow: 3px 3px 10px rgba(0, 0, 255, 0.5);
+    box-sizing: border-box;
+    margin: 20px 0 0 90px;
+}

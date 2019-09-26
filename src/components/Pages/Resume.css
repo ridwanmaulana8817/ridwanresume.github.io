@@ -1,0 +1,31 @@
+.header {
+    margin:200px 0 0 5px;
+}
+
+.resume-header {
+    margin: auto;
+    padding: 10px;
+    padding-left: 30px;
+    box-shadow: 0 0 5px 3px rgba(231, 220, 220, 0.7);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 0.5px;
+  }
+
+  .resume-section {
+    padding:20px;
+  }
+
+
+.h2-resume{
+    padding-bottom: 5px;
+    margin-left: 39px;
+}
+
+ul li{
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+   }

@@ -1,0 +1,169 @@
+.header-galery{
+    margin:150px 0 30px 0;
+       
+}
+
+.h2-gallery {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+	
+.container-gallery {
+	width: 700px;
+	height: 150px;
+    background-color: transparent;
+    margin: auto;
+    padding: 10px;
+    padding-left: 30px;
+    box-shadow: 0 0 5px 3px rgba(246, 248, 246, 0.534);
+    border-radius: 20px;
+  }
+
+.gallery li {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border: 3px solid rgba(246, 248, 246, 0.534);;
+    float: left;
+    margin-right: 24px;
+    position: relative;
+}
+ 
+.gallery li,
+.gallery li span
+.gallery li img{
+    border-radius: 50%;
+}
+  
+.gallery li span{
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(86, 30, 216, 0.5);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 120px;
+    color:rgba(3, 4, 7, 0.801);
+    text-shadow: .5px 2px 2px rgb(242, 245, 245);
+    opacity: 0;
+    transform: scale(0) rotate(0);
+    transition: .3s;
+    font: bold 14px ;
+    
+}
+
+.gallery li a:hover span {
+    opacity:1;
+    transform: scale(1) rotate(360deg);
+}
+
+.clear {
+    clear: both;
+}
+
+/* overlay */
+
+.overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 999;
+    transition: 0.8s;
+    text-align: center;
+    padding:100px;
+}
+
+.overlay:target {
+    width: auto;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(8, 8, 8, 0.7);
+}
+
+.overlay .full-img{
+    max-height: 100%;
+    box-shadow: 2px 2px 10px rgba(219, 27, 27, 0.5);
+}
+.overlay .close {
+    position: absolute;
+    top: 70px;
+    left:50%;
+    opacity: 0;
+}
+
+.overlay:target .close {
+    animation: Fade .5s .5s forwards;
+}
+
+/* navigasi */
+.next, .prev {
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    top:50%;
+    margin-left: 20px;
+    opacity: 0;
+       
+}
+
+.prev {
+    /* background-image: url(); */
+    margin-left: -70px;
+}
+
+.overlay:target .next,
+.overlay:target .prev
+{
+    animation:Fade .5s .5s forwards;
+}
+
+.overlay:target img {
+    animation:Fade .3s;
+
+}
+
+
+
+
+
+
+
+/* Animation */
+@keyframes zoomDanFade {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes SlideDownFade{
+    0%{
+        opacity:0;
+        margin:-20px;
+    }
+
+    100%{
+        opacity:1;
+        margin:0;
+    }
+}
+
+@keyframes Fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

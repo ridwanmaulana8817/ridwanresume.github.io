@@ -1,0 +1,50 @@
+.header-home {
+    margin: 120px 0px 25px 120px;
+    background-color: black;
+    position: flex;
+   }
+
+ .header-home h6{
+    font: 25px  solid Cambria;
+    color: whitesmoke;
+}
+.header-home h1{
+    font: 15px  solid Cambria;
+    
+}
+
+.text-home {
+    padding:15% 0 0 0;
+}
+
+.title-home{
+    font: normal 20px  Tahoma;
+    text-indent: none;
+  }
+
+
+.title-job{
+    font: normal 13px  Tahoma;
+    text-indent: none;
+    margin-left: 8px;
+}
+
+.slideshow-box {
+    margin-left: 10px;
+}
+
+.title-home span{
+    font: normal 20px  Tahoma;
+    color:#2892d7;
+}
+
+.btn-primary {
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    background-color: black;
+    margin-bottom: 20px;
+
+}
+
+

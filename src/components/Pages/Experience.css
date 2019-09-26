@@ -1,0 +1,37 @@
+.header-exp {
+    margin:150px 0 30px 0;
+}
+
+.image-logo, .image-disdik {
+   	margin: auto;
+    padding: 10px;
+    padding-left: 30px;
+    box-shadow: 0 0 5px 3px rgba(231, 220, 220, 0.7);
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.image-logo img{
+    width: 30%;
+    margin-left: 135px;
+}
+.image-disdik img{
+    width: 30%;
+    margin-left: 135px;
+
+}
+
+h5{
+    margin-left: 40px;
+    font-size: 13px;
+}
+
+
+ul{
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+   }
