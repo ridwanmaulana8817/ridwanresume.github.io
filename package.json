@@ -2,7 +2,7 @@
   "name": "react-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ridwanresume.github.io"
+  "homepage": "https://github.com/ridwanmaulana8817/ridwanresume.github.io"
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
